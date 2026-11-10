@@ -1,0 +1,14 @@
+version: v1.25.0
+ignore:
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: 'Tidak ada versi perbaikan dari maintainer. marsdb dipakai Juice Shop sebagai aplikasi latihan yang sengaja rentan, tidak untuk produksi.'
+        expires: 2027-06-30T00:00:00.000Z
+  SNYK-JS-HTTPCACHESEMANTICS-19964064:
+    - '*':
+        reason: 'Tidak ada versi perbaikan. Paket hanya ada di rantai build native module (sqlite3 > node-gyp), tidak masuk runtime aplikasi.'
+        expires: 2027-06-30T00:00:00.000Z
+  SNYK-JS-HTTPCACHESEMANTICS-19964068:
+    - '*':
+        reason: 'Tidak ada versi perbaikan. Paket hanya ada di rantai build native module (sqlite3 > node-gyp), tidak masuk runtime aplikasi.'
+        expires: 2027-06-30T00:00:00.000Z
